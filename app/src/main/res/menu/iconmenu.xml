@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_Home"
+        android:icon="@drawable/ic_camera"
+        android:title="Camera Preview"/>
+
+    <item android:id="@+id/menu_Scan"
+        android:icon="@drawable/ic_view"
+        android:title="Camera View"/>
+
+    <item android:id="@+id/menu_Community"
+        android:icon="@drawable/ic_people"
+        android:title="Add Community"/>
+
+
+    <item android:id="@+id/menu_Logout"
+        android:icon="@drawable/ic_logout"
+        android:title="LogOut"/>
+
+
+</menu>

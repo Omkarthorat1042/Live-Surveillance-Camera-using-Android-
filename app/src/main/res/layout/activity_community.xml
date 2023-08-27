@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Community">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/gotham"
+            android:text="Community Details"
+            android:textColor="#4CAF50"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/etbox"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Type Your Aleart Message"
+            android:inputType="textPersonName" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#85FFFFFF"
+            android:backgroundTint="#2F2196F3">
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="269dp"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:paddingStart="10sp"
+                android:text="No add data"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="142dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_card_background"
+                android:backgroundTint="#FFC107"
+                android:gravity="center"
+                android:text="Send"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#85FFFFFF"
+            android:backgroundTint="#2F2196F3">
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="269dp"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:paddingStart="10sp"
+                android:text="No add data"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="142dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_card_background"
+                android:backgroundTint="#FFC107"
+                android:gravity="center"
+                android:text="Send"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#85FFFFFF"
+            android:backgroundTint="#2F2196F3">
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="269dp"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:paddingStart="10sp"
+                android:text="No add data"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="142dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_card_background"
+                android:backgroundTint="#FFC107"
+                android:gravity="center"
+                android:text="Send"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#85FFFFFF"
+            android:backgroundTint="#2F2196F3">
+
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="269dp"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:paddingStart="10sp"
+                android:text="No add data"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="142dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_card_background"
+                android:backgroundTint="#FFC107"
+                android:gravity="center"
+                android:text="Send"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#85FFFFFF"
+            android:backgroundTint="#2F2196F3">
+
+            <TextView
+                android:id="@+id/c5"
+                android:layout_width="269dp"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:paddingStart="10sp"
+                android:text="No add data"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="142dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_card_background"
+                android:backgroundTint="#FFC107"
+                android:gravity="center"
+                android:text="Send"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FF5722"
+            android:text="Send To All" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_gravity="bottom"
+        app:layout_behavior="@string/bottom_navigation_behavior"
+        app:menu="@menu/bottom_navigation_menu3" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
